@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg width="217px" height="433px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 217 433" style="enable-background:new 0 0 217 433;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:url(#Oval-5-Copy-9_1_);}
+	.st1{fill:none;stroke:url(#Oval-5-Copy-8_1_);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:url(#Oval-5-Copy-7_1_);stroke-width:10;}
+</style>
+<title>Shape/Radial</title>
+<desc>Created with Sketch.</desc>
+<g id="Main-Files">
+	<g transform="translate(-1483.000000, -1872.000000)">
+		<g id="About-us" transform="translate(-181.000000, 1873.000000)">
+			<g id="Bg-Shape" transform="translate(181.000000, 0.000000)">
+				<g transform="translate(1484.000000, 0.000000)">
+
+						<linearGradient id="Oval-5-Copy-9_1_" gradientUnits="userSpaceOnUse" x1="-190.9635" y1="415.0694" x2="-191.1488" y2="416.013" gradientTransform="matrix(430 0 0 -431 82369 179313)">
+						<stop  offset="0" style="stop-color:#EBF2FD;stop-opacity:0.5"/>
+						<stop  offset="1" style="stop-color:#D2E2F9;stop-opacity:0.5"/>
+					</linearGradient>
+					<ellipse id="Oval-5-Copy-9" class="st0" cx="215" cy="215.5" rx="215" ry="215.5"/>
+
+						<linearGradient id="Oval-5-Copy-8_1_" gradientUnits="userSpaceOnUse" x1="-190.7813" y1="416.0573" x2="-190.4899" y2="415.1215" gradientTransform="matrix(220 0 0 -220 42151 91637)">
+						<stop  offset="0" style="stop-color:#EBF2FD;stop-opacity:0.7"/>
+						<stop  offset="1" style="stop-color:#D2E2F9;stop-opacity:0.7"/>
+					</linearGradient>
+					<circle id="Oval-5-Copy-8" class="st1" cx="212" cy="210" r="110"/>
+					<linearGradient id="Oval-5-Copy-7_1_" gradientUnits="userSpaceOnUse" x1="220" y1="166" x2="220" y2="256">
+						<stop  offset="0" style="stop-color:#D21882"/>
+						<stop  offset="1" style="stop-color:#EC83A0"/>
+					</linearGradient>
+					<circle id="Oval-5-Copy-7" class="st2" cx="220" cy="211" r="40"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

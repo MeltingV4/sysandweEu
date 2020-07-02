@@ -1,0 +1,44 @@
+<svg  id="e67ae9a2-c7ac-4b36-9c19-5de612733d5b" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="591.11" height="379.49" viewBox="0 0 591.11 379.49">
+  <defs>
+    <style>
+      .aa0b4667-de1e-4333-aaa9-885c54344cd7, .b9c4e99d-639e-48a0-aca3-862c03c1024a, .ebee4c5a-e517-49db-8c72-7b6b0bfb0e23, .f15f73c5-a9e9-4ea5-96db-95f25e349df9 {
+        fill-rule: evenodd;
+      }
+
+      .b9c4e99d-639e-48a0-aca3-862c03c1024a {
+        fill: url(#ece073f7-40c4-477c-a9d3-a6fcc7064f0f);
+      }
+
+      .aa0b4667-de1e-4333-aaa9-885c54344cd7, .ebee4c5a-e517-49db-8c72-7b6b0bfb0e23, .f15f73c5-a9e9-4ea5-96db-95f25e349df9 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .aa0b4667-de1e-4333-aaa9-885c54344cd7 {
+        stroke: url(#e3a3ff82-ef19-45a3-aab0-f619526fa9e5);
+      }
+
+      .f15f73c5-a9e9-4ea5-96db-95f25e349df9 {
+        stroke: url(#b66c4155-94fc-482e-b5b9-bb06277fbc6a);
+      }
+
+      .ebee4c5a-e517-49db-8c72-7b6b0bfb0e23 {
+        stroke: url(#fd0c96e6-b0e2-4515-839b-93cd600c7f53);
+      }
+    </style>
+    <linearGradient id="ece073f7-40c4-477c-a9d3-a6fcc7064f0f" data-name="Degradado sin nombre 2" x1="223.63" y1="283.8" x2="222.67" y2="283.8" gradientTransform="matrix(613.47, 0, 0, -395.06, -136580.26, 112312.55)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0ffd4"/>
+      <stop offset="1" stop-color="#ebfaee"/>
+    </linearGradient>
+    <linearGradient id="e3a3ff82-ef19-45a3-aab0-f619526fa9e5" x1="407.35" y1="377.82" x2="386.77" y2="377.82" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#ece073f7-40c4-477c-a9d3-a6fcc7064f0f"/>
+    <linearGradient id="b66c4155-94fc-482e-b5b9-bb06277fbc6a" x1="373.1" y1="355.65" x2="330.8" y2="355.65" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#ece073f7-40c4-477c-a9d3-a6fcc7064f0f"/>
+    <linearGradient id="fd0c96e6-b0e2-4515-839b-93cd600c7f53" x1="316.68" y1="330.81" x2="252.29" y2="330.81" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#ece073f7-40c4-477c-a9d3-a6fcc7064f0f"/>
+  </defs>
+  <title>shape17</title>
+  <path class="b9c4e99d-639e-48a0-aca3-862c03c1024a" d="M40,359c58,58,113.64-14.39,171.07-39.69C289,283,363.27,359,436,377S596.71,328,608,245,560,75,468,97c-106.88,25.56-124,16-183-45.18C236.74,1.76,166.06-2.32,117,15,49,39,66.1,152,72,188,81,243-26.28,292.72,40,359Z" transform="translate(-18.26 -5.72)"/>
+  <path class="aa0b4667-de1e-4333-aaa9-885c54344cd7" d="M391.77,375.42q5.3,2.49,10.58,4.79" transform="translate(-18.26 -5.72)"/>
+  <path class="f15f73c5-a9e9-4ea5-96db-95f25e349df9" d="M335.8,347.56c10.82,5.16,21.58,10.73,32.3,16.18" transform="translate(-18.26 -5.72)"/>
+  <path class="ebee4c5a-e517-49db-8c72-7b6b0bfb0e23" d="M257.29,324.64c18.3.41,36.43,5.3,54.39,12.34" transform="translate(-18.26 -5.72)"/>
+</svg>
