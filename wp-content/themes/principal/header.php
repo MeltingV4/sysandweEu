@@ -131,7 +131,7 @@ define('IMAGENES', RUTATEMA);
 					==============================================
 					-->
 		<div class="theme-main-menu theme-menu-one">
-			<div class="logo"><a href="<?php echo get_site_url() ?>/index.php/inicio"><img src="<?php echo IMAGENES ?>/images/logo/logo-claro.svg" alt="Sys&Web Logo"></a></div>
+			<div class="logo"><a href="<?php echo get_site_url() ?>/index.php/home"><img src="<?php echo IMAGENES ?>/images/logo/logo-claro.svg" alt="Sys&Web Logo"></a></div>
 			<nav id="mega-menu-holder" class="navbar navbar-expand-lg">
 				<div class="container position-relative nav-container">
 					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
