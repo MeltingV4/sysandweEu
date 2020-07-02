@@ -35,7 +35,7 @@ define('IMAGENES', RUTATEMA);
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#28224a">
-	<title>Sys&Web : : Diseño y Desarrollo de Sistemas a la medida, ERP, Sitios Web, CMS, WMS y TMS</title>
+	<title>Sys&Web : : Design and Development Systems Custom , ERP, Websites, CMS, WMS and TMS</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="20x20" href="<?php echo IMAGENES ?>/images/fav-icon/icon.png">
 	<!-- Base Css -->
