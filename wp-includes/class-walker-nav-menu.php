@@ -75,7 +75,7 @@ class Walker_Nav_Menu extends Walker {
 		$class_names = join( ' ', apply_filters( 'nav_menu_submenu_css_class', $classes, $args, $depth ) );
 		$class_names = $class_names ? ' class="' . esc_attr( $class_names ) . ' dropdown-menu"' : '';
 
-		$output .= "{$n}{$indent}<ul$class_names>{$n}";
+		$output .= "{$n}{$indent}<ul $class_names>{$n}";
 	}
 
 	/**
@@ -225,7 +225,7 @@ class Walker_Nav_Menu extends Walker {
 		$title = apply_filters( 'nav_menu_item_title', $title, $item, $args, $depth );
 
 		$item_output  = $args->before;
-		$item_output .= '<a' . $attributes . '>';
+		$item_output .= '<a class="nav-link dropdown-toggle "' . $attributes . '>';
 		$item_output .= $args->link_before . $title . $args->link_after;
 		$item_output .= '</a>';
 		$item_output .= $args->after;
