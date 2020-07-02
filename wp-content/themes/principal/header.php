@@ -154,7 +154,7 @@ define('IMAGENES', RUTATEMA);
 			</nav> <!-- /#mega-menu-holder -->
 			<div class="header-right-widget">
 				<ul>
-					<li><a href="index.php/contacto" class="contact-us white-shdw-button">Contact Us. <i class="icon flaticon-next"></i></a></li>
+					<li><a href="index.php/contact" class="contact-us white-shdw-button">Contact Us. <i class="icon flaticon-next"></i></a></li>
 				</ul>
 			</div> <!-- /.header-right-widget -->
 		</div> <!-- /.theme-main-menu -->
