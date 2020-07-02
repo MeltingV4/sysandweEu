@@ -143,9 +143,6 @@ define('IMAGENES', RUTATEMA);
 							array(
 								'container' => false,
 								'items_wrap' => '<ul class="navbar-nav">
-													<li class="nav-item dropdown active  position-relative">
-														<a href="' . get_site_url() . '/index.php/inicio" class="nav-link dropdown-toggle">Inicio.</a>
-													</li>
 													%3$s
 												</ul>',
 								'menu_class'      => '',
@@ -157,7 +154,7 @@ define('IMAGENES', RUTATEMA);
 			</nav> <!-- /#mega-menu-holder -->
 			<div class="header-right-widget">
 				<ul>
-					<li><a href="index.php/contacto" class="contact-us white-shdw-button">Contáctanos <i class="icon flaticon-next"></i></a></li>
+					<li><a href="index.php/contacto" class="contact-us white-shdw-button">Contact Us. <i class="icon flaticon-next"></i></a></li>
 				</ul>
 			</div> <!-- /.header-right-widget -->
 		</div> <!-- /.theme-main-menu -->
