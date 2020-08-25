@@ -40,6 +40,9 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'halo4roberto' );
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *

@@ -5084,7 +5084,7 @@ figcaption a:hover {
     color: #fff;
 }
 
-.form-style-three .send-button {
+.wpcf7-form-control.wpcf7-submit{
     font-family: 'CircularStdmed';
     width: 193px;
     line-height: 51px;

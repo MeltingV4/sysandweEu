@@ -42,9 +42,15 @@ define('IMAGENES', RUTATEMA);
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url') ?>">
 	<!-- Responsive Css -->
 	<link rel="stylesheet" type="text/css" href="<?php echo IMAGENES ?>/css/responsive.css">
+	
+	<link rel="stylesheet" href="https://rawgit.com/atmist/snazzy-info-window/master/dist/snazzy-info-window.css">
 
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<!-- jQuery -->
+	<!--script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFS662TIpavY_kjhzIPMurkD_fN_X8f_0&callback=initMap"></script>
+    <script src="https://snazzymaps.com/explore.json?key=7f33e1fe-91b8-4593-a024-822fd518bf2f"></script-->
+    
+	
 	<script src="<?php echo IMAGENES ?>/js/jquery.2.2.3.min.js"></script>
 	<!-- Popper js -->
 	<script src="<?php echo IMAGENES ?>/js/popper.min.js"></script>
@@ -100,7 +106,54 @@ define('IMAGENES', RUTATEMA);
 		ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
+	
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFS662TIpavY_kjhzIPMurkD_fN_X8f_0"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 4,
 
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(28.153589,-99.103521), 
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#360f5a"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#dadada"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"transit","elementType":"all","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#747474"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(29.760427, -95.369803),
+                    map: map,
+                    /*icon: {
+                        path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+                        strokeColor: "#F436CC",
+                    },*/
+                    //title: 'Houston'
+                });
+            }
+        </script>
+        <style type="text/css">
+            /* Set a size for our map container, the Google Map will take up 100% of this container */
+            #map {
+                width:100%; 
+                height:600px;
+            }
+        </style>
 </head>
 
 <body>

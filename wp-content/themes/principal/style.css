@@ -868,7 +868,7 @@ body .theme-button-two:before,
 .blog-details-fg .blog-fg-data .video-banner-blog .video-button,
 #contact-form .form-group .help-block,
 .contact-us-section .contact-info ul li a,
-.form-style-three .send-button,
+.wpcf7-form-control.wpcf7-submit,
 .faq-tab-wrapper-four .faq-panel .panel .panel-heading .panel-title a i,
 .contact-address-two .address-block a,
 body .line-button-one,
@@ -1043,7 +1043,7 @@ body .theme-button-two,
 .blog-details-fg .blog-fg-data .video-banner-blog .video-button:hover,
 #contact-form .form-group .help-block,
 .contact-us-section .contact-info ul li a:hover,
-.form-style-three .send-button:hover,
+.wpcf7-form-control.wpcf7-submit:hover,
 body .line-button-one:hover,
 body .solid-button-one,
 body .line-button-two:hover,
@@ -1089,7 +1089,7 @@ body .theme-button-one,
 .theme-sidebar-widget .keywords-tag li a:hover,
 .blog-details .user-comment-area .single-comment .reply:hover,
 .contact-us-section .contact-info ul li a:hover,
-.form-style-three .send-button:hover,
+.wpcf7-form-control.wpcf7-submit:hover,
 body .line-button-one,
 body .solid-button-one,
 body .line-button-two:hover,
@@ -4194,7 +4194,7 @@ body .line-button-three:hover,
 
 .blog-filter-title {
     text-align: center;
-    padding: 260px 0 260px;
+    padding: 232px 0 150px;
 }
 
 .blog-filter-title .upper-title {
@@ -5034,33 +5034,46 @@ figcaption a:hover {
 .contact-minimal .inner-wrapper .contact-form {
     max-width: 585px;
 }
-
-#contact-form.form-style-three .form-group ::placeholder {
+div#wpcf7-f35-p17-o1{
+	color:#fff;
+}
+.wpcf7-form-control ::placeholder {
     color: #fff;
     ;
     opacity: 1;
 }
 
-#contact-form.form-style-three .form-group :-ms-input-placeholder {
+.wpcf7-form-control :-ms-input-placeholder {
     color: #fff;
     ;
 }
 
-#contact-form.form-style-three .form-group ::-ms-input-placeholder {
+.wpcf7-form-control ::-ms-input-placeholder {
     color: #fff;
     ;
 }
 
-#contact-form.form-style-three .form-group input,
-#contact-form.form-style-three .form-group textarea {
+.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-email,
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-textarea {
     border: none;
     border-bottom: 2px solid #ffffff;
     padding-left: 0;
     padding-right: 0;
     color: #fff;
+	background: transparent;
 }
 
-.form-style-three .send-button {
+.wpcf7-form-control.wpcf7-textarea{
+	max-height:172px;
+}
+
+.inner-wrapper.clearfix {
+    max-height: 600px;
+    height: 600px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
     font-family: 'CircularStdmed';
     width: 193px;
     line-height: 51px;
@@ -6233,6 +6246,19 @@ Super Slider
 .slider__image {
     width: 100%;
     max-width: 350px;
+}
+
+.agn-about-us .img-box2::before {
+    content: '';
+    width: 90px;
+    height: 99px;
+    background: #bd227a;
+    border-radius: 5px;
+    position: absolute;
+    top: -31px;
+    left: 0;
+    z-index: -1;
+    opacity: 80%;
 }
 
 @-webkit-keyframes check {
